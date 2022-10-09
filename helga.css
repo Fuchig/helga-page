@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    font-family: Arial, serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+header {
+    background-color: #FBC0EF;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+header h1{
+    color: black;
+    font-family: 'Gaegu', cursive;
+    text-shadow: 1px 1px white;
+    font-size: 50px;
+}
+
+header img{
+    border-radius: 60%;
+    width: border-box;
+    border: 10px double;
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main img{
+    max-width: 100%;
+}
+
+h2{
+    font-size: 35px;
+    color: black;
+    text-shadow: 2px 2px #FBC0EF;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+a{
+    color: black;
+    text-shadow: 2px 2px #FBC0EF;
+    font-family: 'Fredericka the Great', cursive;
+}
+a:hover{
+    color: #AB0A8C;
+}
+
+footer{
+    background-color: #FBC0EF;
+    text-align: center;
+    padding: 50px;
+}
+footer p{
+    margin: 0;
+}
