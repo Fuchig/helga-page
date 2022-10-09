@@ -59,3 +59,11 @@ footer{
 footer p{
     margin: 0;
 }
+
+p.caption{
+    color: gray;
+    font-style: italic;
+    margin-top: 0;
+    text-align: center;
+    font-size: small;
+}
