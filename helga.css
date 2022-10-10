@@ -19,10 +19,19 @@ header h1{
     font-size: 50px;
 }
 
+
 header img{
     border-radius: 60%;
     width: border-box;
     border: 10px double;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 main{
@@ -33,6 +42,28 @@ main{
 
 main img{
     max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    text-align: center;
+}
+
+.column img{
+    height: 300px;
+    width: 300px;
+}
+
+.container{
+    padding: 25px;
 }
 
 h2{
@@ -44,11 +75,10 @@ h2{
 
 a{
     color: black;
-    text-shadow: 2px 2px #FBC0EF;
     font-family: 'Fredericka the Great', cursive;
 }
 a:hover{
-    color: #AB0A8C;
+    color: #F9D4F2;
 }
 
 footer{
@@ -66,4 +96,26 @@ p.caption{
     margin-top: 0;
     text-align: center;
     font-size: small;
+}
+
+.button {
+    padding: 15px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: #FBC0EF;
+    border: black;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    display: inline-block;
+}
+
+.button:hover {background-color: #7E1D6B}
+
+.button:active {
+    background-color: #FBC0EF;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
