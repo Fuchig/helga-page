@@ -8,6 +8,8 @@ Plain HTML, CSS, and JavaScript. No build tools or dependencies.
 
 Run `python3 -m http.server 8080` in this directory, then open http://localhost:8080.
 
+https://fuchig.github.io/helga-page/
+
 ## Features
 
 - Responsive character profile and original character artwork
